@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "414881722289",
+    "firebase_url": "https://myferry-be16f.firebaseio.com",
+    "project_id": "myferry-be16f",
+    "storage_bucket": "myferry-be16f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414881722289:android:faa97e80521d58d20e5790",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414881722289-p09i9pdj1si3bdjbfdkfotpe1h5fi0us.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.test",
+            "certificate_hash": "ad666c113a3e932501f76e23f2c9ac0614917474"
+          }
+        },
+        {
+          "client_id": "414881722289-emkktb7hjs35oif2v08nvu1m5vevbgep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiQOufjJOc8dIRKSux9ivO80cebwLrQQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414881722289-emkktb7hjs35oif2v08nvu1m5vevbgep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
