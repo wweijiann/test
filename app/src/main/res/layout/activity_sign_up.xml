@@ -5,26 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundColor"
-    tools:context=".MainActivity"
+    tools:context=".SignUpActivity">
 
 
-    >
-        //Database
-<!--    <EditText-->
-<!--        android:id="@+id/editTextName"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:ems="10"-->
-<!--        android:inputType="textPersonName"-->
-<!--        android:text="Name" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/buttonSave"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Button" />-->
-
-    //Login
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,6 +19,22 @@
             android:layout_height="150dp"
             android:src="@drawable/logo"
             android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
 
         <EditText
             android:id="@+id/tv_username"
@@ -51,31 +50,16 @@
             android:hint="@string/password"
             android:inputType="textPassword"/>
         <Button
-            android:id="@+id/btn_log_in"
+            android:id="@+id/btn_sign_up"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:padding="16dp"
-            android:text="@string/login"
+            android:text="@string/sign_up"
             android:textSize="18sp"
             android:layout_marginTop="10dp"
             android:textColor="@android:color/white"
             android:textAllCaps="false"
             />
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btn_sign_up"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        android:padding="16dp"
-        android:text="@string/dont_have_account"
-        android:textColor="@android:color/white"
-        android:textAllCaps="false"
-        android:textSize="18sp"
-        android:layout_alignParentBottom="true"/>
-
-
-
 </RelativeLayout>
