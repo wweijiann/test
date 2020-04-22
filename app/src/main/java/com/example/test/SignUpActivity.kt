@@ -19,6 +19,12 @@ class SignUpActivity : AppCompatActivity() {
 
         btn_sign_up.setOnClickListener {
             signUpUser()
+            //sadfadsfasfasfasfasfasdf
+            //            //asdfasfasdfasfs
+            //            //asdfasfsadfasfsf
+            //sadfadsfasfasfasfasfasdf
+            //asdfasfasdfasfs
+            //asdfasfsadfasfsf
         }
 
     }
