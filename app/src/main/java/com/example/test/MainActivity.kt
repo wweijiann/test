@@ -21,7 +21,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 //Login
-
+    //dssgdsfgdsfgdfsg
     private lateinit var auth: FirebaseAuth
     //Database
 //    lateinit var editTextName: EditText
